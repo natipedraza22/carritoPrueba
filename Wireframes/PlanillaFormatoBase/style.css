@@ -78,7 +78,7 @@ section{
     box-sizing: border-box;
     position: relative;
     top:80px;
-    height: 1800px;
+    height: 2100px;
     width: 100%;
     float: left;
     font-family: "Merriweather";
@@ -101,7 +101,7 @@ h1{
 
 
 .imagen1{
-    width: 60%;
+    width: 75%;
     height: 40%;
 }
 
@@ -110,7 +110,7 @@ h1{
 }
 
 .col-7{
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     margin-top: 20px;
     padding-left: 20px;
 }
