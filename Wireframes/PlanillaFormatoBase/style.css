@@ -78,7 +78,7 @@ section{
     box-sizing: border-box;
     position: relative;
     top:80px;
-    height: 1450px;
+    height: 1800px;
     width: 100%;
     float: left;
     font-family: "Merriweather";
@@ -101,7 +101,7 @@ h1{
 
 
 .imagen1{
-    width: 80%;
+    width: 60%;
     height: 40%;
 }
 
@@ -109,13 +109,14 @@ h1{
     transform: scale(1.1);
 }
 
-.col-4{
+.col-7{
     margin-bottom: 20px;
     margin-top: 20px;
+    padding-left: 20px;
 }
 
-.col-8{
-    margin-bottom: 20px;
+.col-5{
+    margin-bottom: 50px;
     margin-top: 20px;
 }
 
@@ -126,7 +127,9 @@ h2{
 
 .lista{
     font-size: 20px;
+    text-decoration: none;
 }
+
 
 .precio{font-size: 25px;}
 
