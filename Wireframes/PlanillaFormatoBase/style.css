@@ -78,7 +78,7 @@ section{
     box-sizing: border-box;
     position: relative;
     top:80px;
-    height: 1600px;
+    height: 1500px;
     width: 100%;
     float: left;
     font-family: "Merriweather";
@@ -191,7 +191,7 @@ font-size: 18px;
 
 .toti{
     position: relative;
-    left:65px;
+    left: 120px;
     font-size: 30px;
     margin-top: 15px;
 }
