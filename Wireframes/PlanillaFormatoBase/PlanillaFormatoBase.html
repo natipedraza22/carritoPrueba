@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,80 +38,98 @@
     <section>
         <div class="row">
             <div class="col-12" class="superior">
-    <h1><b>CART</b></h1>
+    <h1><b>BAG</b></h1>
 
    
             </div>
     
             </div>
+            <div class="container">
             <div class="row">
-             <div class="col-7" class="imagen1">
-                <li><a href="#"><img class="imagen1" src="../../img/Indumentaria/Mujer/remeras/RemeraMiniCadenaLino/negro/RemeraMiniCadenaLinoNegro2.png" alt="Remera" id="remera1"></a></li>
+             <div class="col-4">
+                <a href="#"><img class="imagen1" src="../../img/Indumentaria/Mujer/remeras/RemeraMiniCadenaLino/negro/RemeraMiniCadenaLinoNegro2.png" alt="Remera" id="remera1"></a>
                 
                
            
     
              </div>
-                <div class="col-5" class="descripcionImagen1">
-                    <h2><b><i>PRODUCT DESCRIPTION</i></b></h2>
+                <div class="col-8" class="descripcionImagen1">
+                    <h2><b>PRODUCT DESCRIPTION</b></h2>
                     <BR>
                     <br>
                     <br>
                     <div class="float-left">
                     <ul class="lista">
-                        <li class="lista">Color: Black</li>
-                        <li>Talle: M</li>
-                        <li>Quantily: 1</li>
+                        <li> Color : Black</li>
+                        <li> Size: M</li>
+                        <li> Quantity : 1</li>
+                        <li> Fabric: Linen</li>
+                        <li> Ditails: Perfect finishes</li>
+                        <li> Fit: Comfortable</li>
                     </ul>
                     </div>
-                    <div class="float-right"><p class="precio">$2000</p></div>
+                    <div class="float-right"><p class="precio"> Price $29,99 Usd</p></div>
              </div>
             </div>
+        </div>
+        <div class="container">
             <div class="row">
-                <div class="col-7" class="imagen2">
-                    <li><a href="#"><img class="imagen1" src="../../img/Indumentaria/Mujer/remeras/RemeraMangaLargaRayadaAlgodon/rojo/RemeraMangaLargaRayadaAlgodonRojo1.png" alt="Remera" id="remera2"></a></li>
+                <div class="col-4">
+                    <a href="#"><img class="imagen1" src="../../img/Indumentaria/Mujer/remeras/RemeraMangaLargaRayadaAlgodon/rojo/RemeraMangaLargaRayadaAlgodonRojo1.png" alt="Remera" id="remera2"></a>
     
                 </div>
-                   <div class="col-5" class="descripcionImagen2">
-                    <h2><b><i>PRODUCT DESCRIPTION</i></b></h2>
+                   <div class="col-8" class="descripcionImagen2">
+                    <h2><b>PRODUCT DESCRIPTION</b></h2>
                     <BR>
                    <br>
                    <br>
                    <div class="float-left">
                     <ul class="lista">
                         
-                        <li>Color: Red and white</li>
-                        <li>Talle: M</li>
-                        <li>Quantily: 1</li>
+                        <li> Color: Red and white</li>
+                        <li> Size: M</li>
+                        <li> Quantity: 1</li>
+                        <li> Fabric: Cotton</li>
+                        <li> Ditails: Beautiful details in its finishes</li>
+                        <li> Fit: Formal and comfortable</li>
                         
                     </ul></div>
-                    <div class="float-right"><p class="precio">$3000</p></div>
+                    <div class="float-right"><p class="precio"> Price $20,99 Usd</p></div>
                   
                     
                    
                 </div>
                 
             </div>
+        </div>
+        <div class="container">
             <div class="row">
                 <div class="col-7" class="Total">
     
                 </div>
                 <div class="col-5" class="Total">
-                <H4><I>DISCOUNT CODE</I></H4>
+                <H4 class="descuento">DISCOUNT CODE</H4>
                 <br>
-                <div class="float-left"><p class="enter"><i><u>Enter code</u></i></p></div>
+                <div class="float-left"><form action="resultado.html" method="POST">
+                    <label class="enter"><i>Enter code</i></label>
+                    <textarea name="comentario" id="textarea" cols="8" rows="1"></textarea>
+            
+            
+                </form></div>
                 <div class="float-right"><button type="button" class="btn btn-secondary" class="boton">APPLY</button></div><br>
                 <br>
-                <div class="float-left"><p class="total"><b>Subtotal</b></p></div>
-                <div class="float-right"> <p class="total"><b>$5500</b></p></div>
+                <div class="float-left"><p class="subtotal"><b>Subtotal</b></p></div>
+                <div class="float-right"> <p class="subtot"><b>$5500</b></p></div>
                 <br>
 
-                <div class="float-left"><p class="total"><b>Total</b></p></div>
-                <div class="float-right"> <p class="total"><b>$5000</b></p></div>
+                <div class="float-left"><p class="tot"><b>Total</b></p></div>
+                <div class="float-right"> <p class="toti"><b>$5000</b></p></div>
+                <button type="button" class="btn btn-dark" id="buy">BUY</button>
                 </div>
-             
+                
                 
             </div>
+        </div>
     </section>
     <footer>
         <div >

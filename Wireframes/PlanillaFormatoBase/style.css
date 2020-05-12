@@ -78,10 +78,15 @@ section{
     box-sizing: border-box;
     position: relative;
     top:80px;
-    height: 2100px;
+    height: 1600px;
     width: 100%;
     float: left;
     font-family: "Merriweather";
+}
+
+.container{
+    background-color:  #ece8d9;
+   
 }
 
 .col-12{
@@ -101,21 +106,21 @@ h1{
 
 
 .imagen1{
-    width: 75%;
-    height: 40%;
+    width: 100%;
+
 }
 
 .imagen1:hover{
-    transform: scale(1.1);
+    opacity: 0.8;
 }
 
-.col-7{
+.col-4{
     margin-bottom: 35px;
     margin-top: 20px;
     padding-left: 20px;
 }
 
-.col-5{
+.col-8{
     margin-bottom: 50px;
     margin-top: 20px;
 }
@@ -129,22 +134,74 @@ h2{
     font-size: 20px;
     text-decoration: none;
 }
+.lista li{
+    list-style: none;
+}
 
 
-.precio{font-size: 25px;}
+.precio{font-size: 20px;
+    position: relative;
+    right: 30px;
+}
 
 H4{
     border-bottom: 1px solid black
 }
 
-.total{
+.subtotal{
+    position: relative;
+    left:12px;
+    bottom: 16px;
     font-size: 20px;
+    margin-top: 15px;
+}
+
+.subtot{
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+
 }
 
 .enter{
-font-size: 15px;
+    position: relative;
+     bottom: 10px;
+     left: 10px;
+font-size: 18px;
 }
 
+#textarea{
+    position: relative;
+    left: 15px;
+    bottom: 2px;
+}
+
+.descuento{
+    position: relative;
+    left: 10px;
+
+}
+
+.tot{
+    position: relative;
+    right:70px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.toti{
+    position: relative;
+    left:65px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+#buy{
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 12px;
+}
 
 
 
